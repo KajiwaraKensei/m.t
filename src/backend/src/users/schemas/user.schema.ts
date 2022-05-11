@@ -13,7 +13,6 @@ export class User {
 
     @Prop({
         required: true,
-        index: { unique: true }
     })
     password: string
 }
